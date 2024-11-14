@@ -1,5 +1,5 @@
 /* General styling for all pages */
-* {
+ {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -16,12 +16,16 @@ body {
 }
 
 /* Header styling */
+
 header {
+    background: var()
     display: flex;
     align-items: center;
     padding: 20px;
     width: 100%;
 }
+    ul{
+    }
 
 header .logo {
     width: 50px;
@@ -78,7 +82,7 @@ header h1 {
     text-align: left;
 }
 
-/* Contact Page Specific Styling */
+/* Contact Page-Specific Styling */
 form {
     display: flex;
     flex-direction: column;
@@ -98,7 +102,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button: hover {
     background-color: #f05c75;
 }
 
